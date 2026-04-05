@@ -1,0 +1,116 @@
+{
+  "description": "Phonics rules covering silent-e, vowel teams, and consonant blends with training words",
+  "silent_e_rule": {
+    "description": "When a word ends in silent e, the preceding vowel is long (sounds like its letter name)",
+    "words": {
+      "make": [["m", "m"], ["a", "eɪ"], ["k", "k"], ["e", ""]],
+      "bike": [["b", "b"], ["i", "aɪ"], ["k", "k"], ["e", ""]],
+      "hope": [["h", "h"], ["o", "oʊ"], ["p", "p"], ["e", ""]],
+      "cute": [["c", "k"], ["u", "juː"], ["t", "t"], ["e", ""]],
+      "note": [["n", "n"], ["o", "oʊ"], ["t", "t"], ["e", ""]],
+      "cake": [["c", "k"], ["a", "eɪ"], ["k", "k"], ["e", ""]],
+      "like": [["l", "l"], ["i", "aɪ"], ["k", "k"], ["e", ""]],
+      "name": [["n", "n"], ["a", "eɪ"], ["m", "m"], ["e", ""]],
+      "time": [["t", "t"], ["i", "aɪ"], ["m", "m"], ["e", ""]],
+      "home": [["h", "h"], ["o", "oʊ"], ["m", "m"], ["e", ""]]
+    }
+  },
+  "vowel_teams": {
+    "description": "Vowel combinations that create single sounds (vowel digraphs)",
+    "ai": {
+      "sound": "eɪ",
+      "words": {
+        "rain": [["r", "r"], ["ai", "eɪ"], ["n", "n"]],
+        "main": [["m", "m"], ["ai", "eɪ"], ["n", "n"]],
+        "tail": [["t", "t"], ["ai", "eɪ"], ["l", "l"]]
+      }
+    },
+    "ea": {
+      "sound": "iː",
+      "words": {
+        "bean": [["b", "b"], ["ea", "iː"], ["n", "n"]],
+        "team": [["t", "t"], ["ea", "iː"], ["m", "m"]],
+        "mean": [["m", "m"], ["ea", "iː"], ["n", "n"]]
+      }
+    },
+    "oa": {
+      "sound": "oʊ",
+      "words": {
+        "boat": [["b", "b"], ["oa", "oʊ"], ["t", "t"]],
+        "coat": [["c", "k"], ["oa", "oʊ"], ["t", "t"]],
+        "road": [["r", "r"], ["oa", "oʊ"], ["d", "d"]]
+      }
+    },
+    "ee": {
+      "sound": "iː",
+      "words": {
+        "bee": [["b", "b"], ["ee", "iː"]],
+        "tree": [["t", "t"], ["r", "r"], ["ee", "iː"]],
+        "see": [["s", "s"], ["ee", "iː"]]
+      }
+    }
+  },
+  "consonant_blends": {
+    "description": "Two consonants blended together at the start or end of words",
+    "bl": {
+      "sound": "bl",
+      "words": {
+        "blue": [["bl", "bl"], ["u", "uː"]]
+      }
+    },
+    "br": {
+      "sound": "br",
+      "words": {
+        "bread": [["br", "br"], ["e", "ɛ"], ["d", "d"]]
+      }
+    },
+    "cl": {
+      "sound": "kl",
+      "words": {
+        "clap": [["cl", "kl"], ["a", "æ"], ["p", "p"]]
+      }
+    },
+    "cr": {
+      "sound": "kr",
+      "words": {
+        "crab": [["cr", "kr"], ["a", "æ"], ["b", "b"]]
+      }
+    },
+    "dr": {
+      "sound": "dr",
+      "words": {
+        "drip": [["dr", "dr"], ["i", "ɪ"], ["p", "p"]]
+      }
+    },
+    "fl": {
+      "sound": "fl",
+      "words": {
+        "flag": [["fl", "fl"], ["a", "æ"], ["g", "g"]]
+      }
+    },
+    "fr": {
+      "sound": "fr",
+      "words": {
+        "from": [["fr", "fr"], ["o", "ɒ"], ["m", "m"]]
+      }
+    },
+    "gr": {
+      "sound": "gr",
+      "words": {
+        "grab": [["gr", "gr"], ["a", "æ"], ["b", "b"]]
+      }
+    },
+    "st": {
+      "sound": "st",
+      "words": {
+        "stop": [["st", "st"], ["o", "ɒ"], ["p", "p"]]
+      }
+    },
+    "tr": {
+      "sound": "tr",
+      "words": {
+        "trip": [["tr", "tr"], ["i", "ɪ"], ["p", "p"]]
+      }
+    }
+  }
+}

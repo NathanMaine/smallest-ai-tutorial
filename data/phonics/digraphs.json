@@ -1,0 +1,64 @@
+{
+  "description": "Digraph definitions and training words with phoneme breakdowns",
+  "digraphs": {
+    "sh": {
+      "description": "Voiceless postalveolar fricative digraph",
+      "sound": "ʃ",
+      "example_words": ["ship", "shop", "wish"]
+    },
+    "ch": {
+      "description": "Voiceless postalveolar affricate digraph",
+      "sound": "tʃ",
+      "example_words": ["chip", "chat", "chop"]
+    },
+    "th": {
+      "description": "Voiceless dental fricative digraph (soft) or voiced (hard)",
+      "sounds": ["θ", "ð"],
+      "example_words": ["that", "this", "thin"]
+    },
+    "wh": {
+      "description": "Voiceless labial-velar fricative digraph",
+      "sound": "w",
+      "example_words": ["when", "what", "which"]
+    },
+    "ph": {
+      "description": "Voiceless labio-dental fricative digraph (often borrowings)",
+      "sound": "f",
+      "example_words": ["phone", "photo", "phrase"]
+    },
+    "ck": {
+      "description": "Velar stop digraph (uses hard k sound after short vowels)",
+      "sound": "k",
+      "example_words": ["back", "pick", "rock"]
+    },
+    "ng": {
+      "description": "Velar nasal digraph",
+      "sound": "ŋ",
+      "example_words": ["ring", "sing", "wing"]
+    }
+  },
+  "training_words": {
+    "ship": [["s", "s"], ["h", "ʃ"], ["i", "ɪ"], ["p", "p"]],
+    "shop": [["s", "s"], ["h", "ʃ"], ["o", "ɒ"], ["p", "p"]],
+    "wish": [["w", "w"], ["i", "ɪ"], ["sh", "ʃ"]],
+    "dish": [["d", "d"], ["i", "ɪ"], ["sh", "ʃ"]],
+    "fish": [["f", "f"], ["i", "ɪ"], ["sh", "ʃ"]],
+    "chip": [["ch", "tʃ"], ["i", "ɪ"], ["p", "p"]],
+    "chat": [["ch", "tʃ"], ["a", "æ"], ["t", "t"]],
+    "chop": [["ch", "tʃ"], ["o", "ɒ"], ["p", "p"]],
+    "chin": [["ch", "tʃ"], ["i", "ɪ"], ["n", "n"]],
+    "that": [["th", "ð"], ["a", "æ"], ["t", "t"]],
+    "this": [["th", "ð"], ["i", "ɪ"], ["s", "s"]],
+    "thin": [["th", "θ"], ["i", "ɪ"], ["n", "n"]],
+    "then": [["th", "ð"], ["e", "ɛ"], ["n", "n"]],
+    "when": [["wh", "w"], ["e", "ɛ"], ["n", "n"]],
+    "what": [["wh", "w"], ["a", "æ"], ["t", "t"]],
+    "which": [["wh", "w"], ["i", "ɪ"], ["ch", "tʃ"]],
+    "back": [["b", "b"], ["a", "æ"], ["ck", "k"]],
+    "pick": [["p", "p"], ["i", "ɪ"], ["ck", "k"]],
+    "rock": [["r", "r"], ["o", "ɒ"], ["ck", "k"]],
+    "ring": [["r", "r"], ["i", "ɪ"], ["ng", "ŋ"]],
+    "sing": [["s", "s"], ["i", "ɪ"], ["ng", "ŋ"]],
+    "wing": [["w", "w"], ["i", "ɪ"], ["ng", "ŋ"]]
+  }
+}

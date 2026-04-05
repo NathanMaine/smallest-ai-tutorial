@@ -1,0 +1,211 @@
+{
+  "description": "Letter-to-phoneme mappings using International Phonetic Alphabet (IPA) notation. Each letter maps to its primary phoneme sound and alternate pronunciations with example words. Critical for phonics education and speech synthesis training.",
+  "num_phonemes": 44,
+  "phoneme_inventory": [
+    "æ", "eɪ", "ɑː", "ɛ", "iː", "ɪ", "aɪ", "ɒ", "oʊ", "uː", "ʌ", "ʊ", "aʊ", "ɔɪ", "ə",
+    "b", "d", "f", "ɡ", "h", "dʒ", "k", "l", "m", "n", "ŋ", "p", "r", "s", "t", "v", "w", "j", "z", "ʃ", "ʒ", "θ", "ð", "tʃ", "ɹ", "ɫ", "ɾ", "hw", "ks"
+  ],
+  "letter_to_phoneme": {
+    "a": {
+      "primary": "æ",
+      "alternates": ["eɪ", "ɑː", "ə"],
+      "example_words": {
+        "æ": "cat",
+        "eɪ": "cake",
+        "ɑː": "father",
+        "ə": "about"
+      }
+    },
+    "b": {
+      "primary": "b",
+      "alternates": [],
+      "example_words": {
+        "b": "bat"
+      }
+    },
+    "c": {
+      "primary": "k",
+      "alternates": ["s"],
+      "example_words": {
+        "k": "cat",
+        "s": "city"
+      }
+    },
+    "d": {
+      "primary": "d",
+      "alternates": [],
+      "example_words": {
+        "d": "dog"
+      }
+    },
+    "e": {
+      "primary": "ɛ",
+      "alternates": ["iː", "ə"],
+      "example_words": {
+        "ɛ": "bed",
+        "iː": "me",
+        "ə": "the"
+      }
+    },
+    "f": {
+      "primary": "f",
+      "alternates": [],
+      "example_words": {
+        "f": "fun"
+      }
+    },
+    "g": {
+      "primary": "ɡ",
+      "alternates": ["dʒ"],
+      "example_words": {
+        "ɡ": "go",
+        "dʒ": "gem"
+      }
+    },
+    "h": {
+      "primary": "h",
+      "alternates": [],
+      "example_words": {
+        "h": "hat"
+      }
+    },
+    "i": {
+      "primary": "ɪ",
+      "alternates": ["aɪ", "iː"],
+      "example_words": {
+        "ɪ": "sit",
+        "aɪ": "kite",
+        "iː": "ski"
+      }
+    },
+    "j": {
+      "primary": "dʒ",
+      "alternates": [],
+      "example_words": {
+        "dʒ": "jam"
+      }
+    },
+    "k": {
+      "primary": "k",
+      "alternates": [],
+      "example_words": {
+        "k": "kite"
+      }
+    },
+    "l": {
+      "primary": "l",
+      "alternates": [],
+      "example_words": {
+        "l": "lip"
+      }
+    },
+    "m": {
+      "primary": "m",
+      "alternates": [],
+      "example_words": {
+        "m": "map"
+      }
+    },
+    "n": {
+      "primary": "n",
+      "alternates": [],
+      "example_words": {
+        "n": "net"
+      }
+    },
+    "o": {
+      "primary": "ɒ",
+      "alternates": ["oʊ", "uː", "ʌ"],
+      "example_words": {
+        "ɒ": "hot",
+        "oʊ": "go",
+        "uː": "do",
+        "ʌ": "son"
+      }
+    },
+    "p": {
+      "primary": "p",
+      "alternates": [],
+      "example_words": {
+        "p": "pig"
+      }
+    },
+    "q": {
+      "primary": "k",
+      "alternates": [],
+      "example_words": {
+        "k": "queen"
+      }
+    },
+    "r": {
+      "primary": "ɹ",
+      "alternates": [],
+      "example_words": {
+        "ɹ": "red"
+      }
+    },
+    "s": {
+      "primary": "s",
+      "alternates": ["z"],
+      "example_words": {
+        "s": "sun",
+        "z": "is"
+      }
+    },
+    "t": {
+      "primary": "t",
+      "alternates": [],
+      "example_words": {
+        "t": "top"
+      }
+    },
+    "u": {
+      "primary": "ʌ",
+      "alternates": ["uː", "ʊ"],
+      "example_words": {
+        "ʌ": "cup",
+        "uː": "rule",
+        "ʊ": "put"
+      }
+    },
+    "v": {
+      "primary": "v",
+      "alternates": [],
+      "example_words": {
+        "v": "van"
+      }
+    },
+    "w": {
+      "primary": "w",
+      "alternates": [],
+      "example_words": {
+        "w": "wet"
+      }
+    },
+    "x": {
+      "primary": "ks",
+      "alternates": ["z"],
+      "example_words": {
+        "ks": "box",
+        "z": "xylophone"
+      }
+    },
+    "y": {
+      "primary": "j",
+      "alternates": ["ɪ", "aɪ", "iː"],
+      "example_words": {
+        "j": "yes",
+        "ɪ": "gym",
+        "aɪ": "my",
+        "iː": "happy"
+      }
+    },
+    "z": {
+      "primary": "z",
+      "alternates": [],
+      "example_words": {
+        "z": "zip"
+      }
+    }
+  }
+}
