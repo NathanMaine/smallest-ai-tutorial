@@ -1,3 +1,6 @@
+
+![Gemini_Generated_Image_h9yav1h9yav1h9ya](https://github.com/user-attachments/assets/8f152eb3-4254-4fe0-a246-9f9086a93b61)
+
 # Build 4 Neural Networks from Scratch in Pure Python
 
 **No NumPy. No PyTorch. No magic. Just you, a text editor, and matrix multiplication.**
