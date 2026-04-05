@@ -68,7 +68,7 @@ Transformers are **the standard for NLP** because they align with how humans rea
 
 ### 5. Scalable Foundation
 
-Modern LLMs (GPT, BERT, Claude) are all transformer-based. Learning transformers from scratch prepares you for understanding and building production systems.
+Modern LLMs (GPT, BERT, LLaMA) are all transformer-based. Learning transformers from scratch prepares you for understanding and building production systems.
 
 ## Alternatives Considered
 
